@@ -38,6 +38,7 @@ export class App implements AfterViewInit {
   readonly experience: {
     role: string;
     company: string;
+    playStoreUrl?: string;
     period: string;
     stack: string;
     team: string;
@@ -47,6 +48,7 @@ export class App implements AfterViewInit {
     {
       role: 'Lead Developer',
       company: 'LocalBasketHD',
+      playStoreUrl: 'https://play.google.com/store/apps/details?id=com.localbaskethd&pcampaignid=web_share',
       period: 'Dec 2025 – Present',
       stack: 'HLT Solutions | Flutter & Dart',
       team: 'Team: 6 Members',
@@ -62,6 +64,7 @@ export class App implements AfterViewInit {
     {
       role: 'Lead Developer',
       company: 'EATO',
+      playStoreUrl: 'https://play.google.com/store/apps/details?id=com.hlt.eato&pcampaignid=web_share',
       period: 'Jun 2025 – Nov 2025',
       stack: 'HLT Solutions | Flutter & Dart',
       team: 'Team: 4 Members',
@@ -77,6 +80,7 @@ export class App implements AfterViewInit {
     {
       role: 'Lead Developer',
       company: 'Assistify',
+      playStoreUrl: 'https://play.google.com/store/apps/details?id=jr.assistify.starter&pcampaignid=web_share',
       period: 'Apr 2025 – May 2025',
       stack: 'HLT Solutions | Flutter & Dart',
       team: 'Team: 4 Members',
@@ -107,6 +111,7 @@ export class App implements AfterViewInit {
     {
       role: 'Senior Developer',
       company: 'Kovela',
+      playStoreUrl: 'https://play.google.com/store/apps/details?id=com.kovela&pcampaignid=web_share',
       period: 'Sep 2023 – Nov 2024',
       stack: 'Client: A Team of Doctors, USA | React.js, Flutter & Dart',
       team: 'Team: 6 Members',
@@ -137,6 +142,7 @@ export class App implements AfterViewInit {
     {
       role: 'Application Lead',
       company: 'SKILLRAT',
+      playStoreUrl: 'https://play.google.com/store/apps/details?id=com.skill_rat&pcampaignid=web_share',
       period: 'Jul 2022 – Nov 2022',
       stack: 'Juvarya, India | React Native & SQL Server',
       team: 'Team: 2 Members',

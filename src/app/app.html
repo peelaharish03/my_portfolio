@@ -80,7 +80,14 @@
           <article class="timeline__item card" data-reveal>
             <div class="timeline__top">
               <div>
-                <div class="jobTitle">{{ job.role }} — {{ job.company }}</div>
+                <div class="jobTitle">
+                  {{ job.role }} —
+                  @if (job.playStoreUrl) {
+                    <a [href]="job.playStoreUrl" target="_blank" rel="noopener">{{ job.company }}</a>
+                  } @else {
+                    {{ job.company }}
+                  }
+                </div>
                 <div class="jobMeta">{{ job.period }}</div>
               </div>
               <div class="jobStack">
