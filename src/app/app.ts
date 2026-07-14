@@ -1,8 +1,9 @@
 import { AfterViewInit, Component } from '@angular/core';
+import { CursorTrailComponent } from './cursor-trail/cursor-trail';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [CursorTrailComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
